@@ -1,0 +1,4 @@
+[submodule "twemoji"]
+	path = twemoji
+	url = https://github.com/twitter/twemoji.git
+	branch = gh-pages
