@@ -27,7 +27,7 @@
         <Shape id="{./@id}" displayName="{./@name}" icon="{./@icon}">
             <Properties>
                 <PropertyGroup>
-                    <Property name="box" type="Dimension" p:lockRatio="true">16,16</Property>
+                    <Property name="box" type="Dimension" p:lockRatio="true">48,48</Property>
                 </PropertyGroup>
             </Properties>
 
