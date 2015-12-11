@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.evolus.vn/Namespace/Pencil"
         xmlns:p="http://www.evolus.vn/Namespace/Pencil"
         xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0">
     <xsl:output method="xml" indent="yes"/>
 
@@ -47,15 +48,14 @@
         </Shape>
     </xsl:template>
 
-    <xsl:template name="copy">
-        <xsl:copy-of select="." />
+    <!-- Identity template to copy everything by default -->
+    <xsl:template match="node()|@*">
+        <xsl:copy>
+            <xsl:apply-templates select="node()|@*"/>
+        </xsl:copy>
     </xsl:template>
 
     <!-- empty template to remove metadata -->
-    <xsl:template match="svg:svg/metadata | svg:svg/rdf" />
+    <xsl:template match="svg:metadata" />
 
-    <!-- copy everything else from the svg -->
-    <xsl:template match="svg:svg/*">
-        <xsl:call-template name="copy" />
-    </xsl:template>
 </xsl:stylesheet>

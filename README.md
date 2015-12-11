@@ -5,7 +5,7 @@ Twitter Emoji as a Pencil stencil collection - drag-and-drop emoji into your moc
 *Check out my other stencil collections for Pencil at [nathanielw.github.io/pencil-stencils](http://nathanielw.github.io/pencil-stencils/)*
 
 ## Installation
-- Download the [latest release](https://github.com/nathanielw/Twemoji-for-Pencil/releases/latest) zip file.
+- Download the [latest release](https://github.com/nathanielw/Twemoji-for-Pencil/releases/latest) zip file. (Make sure you grab the _twemoji-for-pencil-vx.x.x.zip_ file, not the source code zip).
 - Install the collection in Pencil by going to *Tools > Install new collection* and selecting the zip.
 - Enjoy!
 
