@@ -1,9 +1,11 @@
 # Emoji for Pencil
 
+Twitter Emoji as a Pencil stencil collection - drag-and-drop emoji into your mockups! :thumbsup:
+
 *Check out my other stencil collections for Pencil at [nathanielw.github.io/pencil-stencils](http://nathanielw.github.io/pencil-stencils/)*
 
 ## Installation
-- Download the [latest release](https://github.com/nathanielw/Emoji-for-Pencil/releases/latest) zip file.
+- Download the [latest release](https://github.com/nathanielw/Twemoji-for-Pencil/releases/latest) zip file.
 - Install the collection in Pencil by going to *Tools > Install new collection* and selecting the zip.
 - Enjoy!
 
@@ -23,4 +25,4 @@ Windows users wanting to **generate** the collection: see [this comment](https:/
 ## License
 Emoji graphics are by Twitter and are licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please check the [Attribution Requirements](https://github.com/twitter/twemoji#attribution-requirements) for using the emoji.
 
-All source code/scripts used to generate the Pencil stencil are released under the [MIT License](http://opensource.org/licenses/mit-license.php).
+All source code/scripts used to generate the Pencil stencil are released under the [MIT License](LICENSE).

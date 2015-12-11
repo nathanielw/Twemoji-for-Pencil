@@ -9,11 +9,12 @@
         <Shapes
         id="nz.nwatson.Twemoji"
         displayName="Twitter Emoji"
-        description="Twitter Emoji (Twemoji) for Pencil. Emoji from https://github.com/twitter/twemoji
+        description="Twitter Emoji (Twemoji) for Pencil.
         &#13;
+        &#13;Emoji graphics are by Twitter and are licensed under CC-BY 4.0. See https://github.com/twitter/twemoji for details.
         &#13;Source code for generating this stencil collection can be found at https://github.com/nathanielw/Emoji-for-Pencil and is licensed under the MIT License."
         author="Emoji graphics by Twitter used under CC-BY 4.0. Pencil Stencil by Nathaniel Watson (nwatson.nz)"
-        url="https://github.com/nathanielw/Emoji-for-Pencil">
+        url="https://github.com/nathanielw/Twemoji-for-Pencil">
 
             <xsl:apply-templates/>
         </Shapes>
