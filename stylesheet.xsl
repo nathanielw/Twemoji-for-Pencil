@@ -16,6 +16,11 @@
         &#13;Source code for generating this stencil collection can be found at https://github.com/nathanielw/Emoji-for-Pencil and is licensed under the MIT License."
         author="Emoji graphics by Twitter used under CC-BY 4.0. Pencil Stencil by Nathaniel Watson (nwatson.nz)"
         url="https://github.com/nathanielw/Twemoji-for-Pencil">
+            <Properties>
+                <PropertyGroup name="Collection settings">
+                    <Property name="size" displayName="Default emoji size (width,height)" type="PlainText">16,16</Property>
+                </PropertyGroup>
+            </Properties>
 
             <xsl:apply-templates/>
         </Shapes>
@@ -27,7 +32,7 @@
         <Shape id="{./@id}" displayName="{./@name}" icon="{./@icon}">
             <Properties>
                 <PropertyGroup>
-                    <Property name="box" type="Dimension" p:lockRatio="true">16,16</Property>
+                    <Property name="box" type="Dimension" p:lockRatio="true"><E>$$size</E></Property>
                 </PropertyGroup>
             </Properties>
 

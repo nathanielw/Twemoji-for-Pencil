@@ -1,6 +1,6 @@
 # Emoji for Pencil
 
-Twitter Emoji as a Pencil stencil collection - drag-and-drop emoji into your mockups! :thumbsup:
+Twitter Emoji as a [Pencil](https://github.com/prikhi/pencil) stencil collection - drag-and-drop emoji into your mockups! :thumbsup:
 
 *Check out my other stencil collections for Pencil at [nathanielw.github.io/pencil-stencils](http://nathanielw.github.io/pencil-stencils/)*
 
@@ -11,6 +11,9 @@ Twitter Emoji as a Pencil stencil collection - drag-and-drop emoji into your moc
 
 ### Updating
 Right-click on the collection in Pencil's sidebar and choose _Uninstall this collection_ before repeating the installation steps.
+
+### Using
+Drag-and-drop emoji from the _Collections_ panel onto your mockups. Easy. If you want to change the default emoji size, right-click on the collection in the _Collections_ panel, select _Collection settings_ and enter the desired size (it's `16,16` by default).
 
 ## Generating the Collection
 - Clone this repo with the `--recursive` flag to include submodules. (or just clone it normally then `git submodule init` and `git submodule update`)
