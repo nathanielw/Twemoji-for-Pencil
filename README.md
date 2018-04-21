@@ -1,5 +1,13 @@
 # Emoji for Pencil
 
+----
+
+## ⚠️ No longer actively developed
+Other commitments and the fact I no longer use Pencil mean this repo is no longer being actively worked on.
+Pull-requests with new features/fixes are still welcome, as are new issues, but my responses might not be the speediest 🙂
+
+----
+
 Twitter Emoji as a [Pencil](https://github.com/prikhi/pencil) stencil collection - drag-and-drop emoji into your mockups! :thumbsup:
 
 *Check out my other stencil collections for Pencil at [nathanielw.github.io/pencil-stencils](http://nathanielw.github.io/pencil-stencils/)*
